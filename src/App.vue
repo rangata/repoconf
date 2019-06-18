@@ -2,9 +2,11 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/units">uniti</router-link>
     </div>
     <router-view/>
+    <vue-snotify></vue-snotify>
   </div>
 </template>
 
